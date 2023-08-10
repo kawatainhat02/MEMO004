@@ -9,4 +9,7 @@ guard let leaseStart = aBuilding.TenantList[5]?.leaseDetails?.startDate else
 }
 //continue, knowing that leaseStart is not nil
 
-
+protocol StringConvertible
+{
+    func toString() -> String
+}
